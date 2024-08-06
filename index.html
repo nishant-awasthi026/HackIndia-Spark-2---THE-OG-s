@@ -33,20 +33,20 @@
                 <div class="half-box" id="device1">
                     <div class="numbox" id="temp">
                         <h6>*tempreture sensor</h6>
-                        <h1>41<sup>°C</sup></h1>
+                        <h1 id="temp-data" >NA</h1>
                     </div>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input id="temp-btn" type="checkbox">
                         <span class="slider round"></span>
                       </label>
                 </div>
                 <div class="half-box" id="device2">
                     <div class="numbox" id="gas">
                         <h6>*gas sensor</h6>
-                        <h1>69%</h1>
+                        <h1 id="gas-data" >NA</h1>
                     </div>
                     <label class="switch">
-                        <input type="checkbox">
+                        <input id="gas-btn" type="checkbox">
                         <span class="slider round"></span>
                       </label>
                 </div>
@@ -62,5 +62,7 @@
         </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
